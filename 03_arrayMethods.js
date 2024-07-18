@@ -29,4 +29,14 @@ const result3 = arr.slice(2,10);
 console.log("result",result3);
 
 //splice method
-const resulst4 = arr.splice(2,)
+const resulst4 = arr.splice(2,);
+// console.log(isNaN('NaN'));
+// console.log(isNaN(NaN));
+// console.log(isNaN(undefined));
+// console.log(isNaN(null));
+
+
+let text1 = "ab";
+let text2 = "cd";
+let result4 = text1.localeCompare(text2);
+console.log(resulst4);
