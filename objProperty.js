@@ -17,9 +17,10 @@ delete obj.name;
 obj.age = 12;
 console.log(obj);
 
-console.log("is equal ",obj===obj2);
+console.log("is equal : ",obj===obj2);
 
 const obj3 = obj;
 obj3.city="indore"
 console.log(obj3===obj);
 console.log(Object.is(obj3,obj));
+
